@@ -4,37 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana-speak</title>
-
-    <style>
-        textarea{
-            display: block;
-            height: 10vh;
-            width: 80%;
-            margin: 1rem;
-            padding: 1rem;
-        }
-        #output{
-            border:1px solid ; 
-            width: 80%;
-            height: 10vh;
-            margin: 1rem;
-            padding: 1rem;
-        }
-        #btn{
-            margin: 1rem;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
+>
 </head>
 
 <body>
-    <h1>Talk Banana</h1>
-    <textarea  id="txt-input"
-    placeholder="Type here the text you wanted to be translated" ></textarea>
-    <button id="btn">Translate</button>
-    <div style="font-size: large;">Output Will come below </div>
-    <div id="output"></div>
+    <nav class=navigation>
+        <div> Pirate Translator</div> 
+     </nav>
+
+    <header >
+     <img class="hero-image" src="images/minion-clipart-svg-8-original.png">
+    </header>
+    
+   <section class="section">
+        <textarea id="txt-input"
+            placeholder="Put your sentence in English here to convert it in Pirate Language"></textarea>
+        <div class="btn">
+         <button id="btn-translate">Translate</button>
+        </div>
+        
+         <div id="output"></div>
+    </section>
+    
+    <footer class="footer" >
+        <div class="footer-heading" >
+        My Online Profiles
+        </div>
+        
+        <ul class="list-unbulleted-list" >
+          <li class="list-item-inline" >
+            <a class="link" href="https://github.com/dushyant2901">Github</a>
+          </li>
+          <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/Dushyan61991113"> Twitter</a>
+        
+          </li>
+          <li class="list-item-inline" >
+           <a class="link" href="https://in.linkedin.com/in/dushyant-pratap-singh-04b24619b">Linkedin</a>
+          </li>
+        </ul>
+        </footer >
+        
     <script src="app.js" type="text/javascript"></script>
+
 </body>
 </html>
