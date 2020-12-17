@@ -23,25 +23,29 @@ body{
     border-radius: 1.5rem;}
    
 
-textarea{
+textarea{background-color:#FBBF24;
+    color:white;
     display: block;
     height: 16vh;
     width: 80%;
     margin: 1rem;
     padding: 1rem;
     border-radius: 1rem;
-    font-size :large;
+    font-size :1.5rem;
+    font-weight: bold;
    font-family: 'EB Garamond', serif;
     
 }
-#output{
+#output{background-color:#FBBF24;
+    color:white;
     border:1px solid ; 
     width: 80%;
     height: 16vh;
     margin: 1rem;
     padding: 1rem;
     border-radius: 1rem;
-    font-size:large;
+    font-size:1.5rem;
+    font-weight: bold;
     font-family:'EB Garamond', serif;
  }
 
