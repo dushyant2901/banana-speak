@@ -4,7 +4,10 @@
 
 body{
     font-family: 'EB Garamond', serif;
-
+    background-image: url("images/mini.jpg");
+    background-attachment: fixed;
+    background-size:120%;
+    
 }
 .navigation{
     margin:0.5rem 1rem;
